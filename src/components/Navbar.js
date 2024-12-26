@@ -1,6 +1,6 @@
 //patching/v0.1 notes
 //this navbar requires responsivity for device/screen size changes (mobile, ipad, varying desktops)
-
+import { Link } from "react-router-dom";
 import React from "react";
 import "./Navbarstyles.css"
 
@@ -26,15 +26,10 @@ function Navbar(){
             </ul>
 
             <ul className= "nav-links">
-                <li>
-                    <a href="https://github.com/matthewpkearney/ideas" className="a right">IDEAS</a>
-                </li>
-                <li>
-                    <a href="https://github.com/matthewpkearney/projects" className="a right">PROJECTS</a>
-                </li>
-                <li>
-                    <a href="https://github.com/matthewpkearney/work" className="a right">WORK</a>
-                </li>
+                <Link to="/ideas" className="a right">IDEAS</Link>
+                <Link to="/projects" className="a right">PROJECTS</Link>
+                <Link to="/work" className="a right">WORK</Link>
+                
             </ul>
         </div>
     
