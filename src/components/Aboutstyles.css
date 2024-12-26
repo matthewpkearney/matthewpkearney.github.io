@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 45px; 
+    margin-bottom: 20px;
+}
+
+.image {
+    flex: 1; /* grow, shrink, basis - https://www.w3schools.com/cssref/css3_pr_flex.php */
+    max-width: 45%; 
+    padding: 10px; 
+    box-sizing: border-box; /* grid-setup */
+}
+
+.image img {
+    width: 100%; /* img takes up full width of it image */
+    border-radius: 8px; 
+}
+
+.content {
+    max-width: 55%; 
+    padding: 10px;
+    box-sizing: border-box; /* grid */
+}
+
+.content p{
+    font-family: Arial, Helvetica, sans-serif; /* fits theme well, try to style as "high up" as possible.. */
+    font-size: large;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column; /* show picture first */
+    }
+
+    .image, .content {
+        padding: 5px; 
+    }
+
+    .image {
+        max-width: 66%; /* fits with hero title */
+    }
+}

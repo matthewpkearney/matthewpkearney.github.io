@@ -1,0 +1,42 @@
+* {
+    background: #fbf3f2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Josh Comeau provided calendar example which gave transferrable .parent, .child grid response 
+https://www.joshwcomeau.com/css/interactive-guide-to-grid/
+*/
+
+/* essentially .parent*/
+.Proj{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* grid must fit the size of project-box width */
+    max-width: 100%;
+    list-style-type: none;
+    justify-items: center;
+    margin: 32px;
+    gap: 8px;
+}
+
+
+/* .child
+in the future we may find a height to make each the same .
+In this case, float the Source code to center and the date/tags to bottom */
+.project-box {
+    display: grid;
+    padding: 20px;
+    border: 2px solid #676767;
+    border-radius: 8px;
+    margin: 8px; /* spacing b/w projects (and to top/bottom/side margins) */
+    width: 200px; /* control width */
+    gap: 8px;
+    /* height: 400px; */ 
+}
+
+/*
+padding: https://www.w3schools.com/css/css_padding.asp
+*/

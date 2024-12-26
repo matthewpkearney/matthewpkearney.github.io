@@ -1,0 +1,115 @@
+[
+  
+    {
+      "title": "Project One",
+      "subtitle": "Reason for developing Project One, what does it solve?",
+      "live": "www.project1.com",
+      "src": "www.github.com/matthewpkearney/url",
+      "dates": "Jan 2021",
+      "tags": ["PL1", "PL2", "Concept1", "Method1"],
+      "show": true,
+      "month": 1,
+      "year": 2021
+    },
+    {
+      "title": "Course Assistant for Security, Privacy, and Society (CS 396)\nHoboken NJ",
+      "subtitle": "Motivating the need for developing proactive cybersecurity systems. Cryptography, common attack structures and countermeasures of web and network security, and societal discourse of recurring themes in privacy and security due to technology. Administering weekly lab material for a class of 31 students, grading exams and essays, and proctoring students with time accomodations.",
+      "live": "",
+      "src": "",
+      "dates": "Fall 2024",
+      "tags": [],
+      "show": true,
+      "month": [9, 12],
+      "year": 2024
+    }, 
+    {
+      "title": "Fellow at Sustainable and Just Futures\nHoboken NJ",
+      "subtitle": "Initiative to improve the environmental and sustainabilty education, status, and attitude at Stevens, and in education beyond. Working with SJF at UCB and other universities around the US, as well as other departments and student leads at Stevens to address the need to invest in greater envionmental education and youth action.",
+      "live": "",
+      "src": "",
+      "dates": "",
+      "tags": [],
+      "show": true,
+      "month": [8, 13],
+      "year": 2024
+    },
+    {
+      "title": "Research Assistant at Davidson Laboratory (SFAS)\nHoboken NJ",
+      "subtitle": "Working with a team of model developers for the Stevens Flood Advisory System (SFAS) to navigate ensemble members for flood and hydrodynamics modeling. Developed a meteorological product description document for 20+ meteorological products, leading to improvements in spatial and temporal resolutions for ensemble members. ",
+      "live": "",
+      "src": "",
+      "dates": "",
+      "tags": [],
+      "show": true,
+      "month": [5, 9],
+      "year": 2024
+    }, 
+    {
+      "title": "Sales Associate at Best Buy\nSecaucus NJ",
+      "subtitle": "Developing relations with and matching the needs of customers in computing sales. Maintaining clear displays. ",
+      "live": "",
+      "src": "",
+      "dates": "",
+      "tags": [],
+      "show": true,
+      "month": [6, 8],
+      "year": 2024
+    },
+    {
+      "title": "Hospitality Specialist / Front-end development at NHC Events at Searles Castle\nWindham NH",
+      "subtitle": "Created a web development proposal to create a digital storefront that meets industry and client standards. Performed hospitality services from geuridon serving to passing hors d'ouvres. ",
+      "live": "",
+      "src": "",
+      "dates": "",
+      "tags": [],
+      "show": true,
+      "month": [6, 8],
+      "year": 2023
+    }, 
+    {
+      "title": "Course Assistant for Introduction to Computer Science (CS 115) Hoboken NJ",
+      "subtitle": "Introductory computer science course learning Python. Provided help to 19 students through course material and labs to support skills including recursion and troubleshooting",
+      "live": "",
+      "src": "",
+      "dates": "",
+      "tags": [],
+      "show": true,
+      "month": [9, 12],
+      "year": 2022
+    }, 
+    {
+      "title": "Server/ Food Stand Leader at Canobie Lake Park\nSalem NH",
+      "subtitle": "Restaurant leader, server, and bartender for the Sons of Liberty Tavern.",
+      "live": "",
+      "src": "",
+      "dates": "",
+      "tags": [],
+      "show": true,
+      "month": [5, 8],
+      "year": 2022
+    }, 
+    {
+      "title": "Research Assistant for doctoral Thesis\nHoboken NJ",
+      "subtitle": "Experimentation on 3D projection technology, making observations from model iterations of simulations onto angled surfaces.",
+      "live": "",
+      "src": "",
+      "dates": "",
+      "tags": [],
+      "show": true,
+      "month": [9, 11],
+      "year": 2021
+    }, 
+    {
+      "title": "Warehouse worker at Canobie Lake Park\nSalem NH",
+      "subtitle": "Fulfilling warehouse operations across maintenance, transportation, and loading tasks",
+      "live": "",
+      "src": "",
+      "dates": "",
+      "tags": [],
+      "show": true,
+      "month": [6, 8],
+      "year": 2021
+    }
+
+    
+]

@@ -1,0 +1,72 @@
+.hero {
+    width: 100%;
+    margin-top: 60px;
+    height: 200px;
+
+    /* 
+    height at 100vh is the whole page
+    at 200 px is a comfortable hero 
+    */
+    background-color: #BDBDBD; /*default*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: #1e1e1e;
+    padding: 0px 0px 10px 0px; /* bottom padding */
+    background-color: #bdbdbd;
+}
+
+h2 {
+    font-size: small;
+    color: #676767;
+    padding-bottom: 19px;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    background-color: #bdbdbd;
+}
+
+.hero h3 {
+    background-color: #bdbdbd;
+}
+
+.hero h3 a {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px 20px; /* 10 px top/bottom, 20px left and right */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button {
+    
+    background-color: #1e1e1e;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h3 {
+    color: #BDBDBD;
+    background-color: #bdbdbd;
+    
+}
+
+/* for button class */
+.show {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}

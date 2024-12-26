@@ -1,0 +1,192 @@
+[
+  
+    {
+      "title": "Project One",
+      "subtitle": "Reason for developing Project One, what does it solve?",
+      "live": "www.project1.com",
+      "src": "www.github.com/matthewpkearney/url",
+      "dates": "Jan 2021",
+      "tags": ["PL1", "PL2", "Concept1", "Method1"],
+      "show": true,
+      "month": 1,
+      "year": 2021
+    },
+    {
+      "title": "Wildfire Danger Prediction using Long Short-Term Memory Network",
+      "subtitle": "Wildfires are a serious threat to public safety in the US and across the world. I pull two years of daily wildfire indices and climate metrics (temperature, wind) from near Yosemite Valley, CA and use a LSTM neural network to effectively train and tune a research model for real-time advisory. The resulting network is able to learn and accurately capture trends and conditions prone to wildfires, leading to an MSE of 0.05 upon generalization.",
+      "live": "https://github.com/matthewpkearney/Wildfire-Risk-Advisory/blob/main/mkearney_LSTM_Wildfire_Risk.pdf",
+      "src": "https://github.com/matthewpkearney/Wildfire-Risk-Advisory/blob/main/Figures.pdf",
+      "dates": "Dec 2024",
+      "tags": ["Machine learning", "LSTM network", "Climate research", "Wildfire indices/advisory modeling", "Yosemite Valley"],
+      "show": true,
+      "month": [11,12],
+      "year": 2024
+    },
+    {
+      "title": "Algorithmic improvements of the Fast Fourier Transform (FFT)",
+      "subtitle": "The Fast Fourier Transform, by turning boring time-domain data to useful frequency-domain data, is used in industries from telecommunications to MRIs. As many technologists claim the FFT as the greatest, and most widespread technological advancement of the 20th century, how has the FFT made real-time applications of data-intensive processes possible? ",
+      "live": "https://docs.google.com/presentation/d/15hZr5Mu-QVjpkWoeSxkBAJpAf9ALLSjwUs5dhHD0gKw/edit?usp=sharing",
+      "src": "",
+      "dates": "Dec 2024",
+      "tags": ["Fourier series/ transform", "Discrete Fourier Transform (DFT)", "Fast Fourier Transform (FFT)"],
+      "show": true,
+      "month": [11,12],
+      "year": 2024
+    },
+    {
+      "title": "Stacked model salary prediction",
+      "subtitle": "Visualized predictions from a stack of supervised learners (k-means, random forest, and the support vector regressor) to decrease the variance and error in predictions. Visualized the performance of the meta learner, depicting distinct learning performance despite a high MSE.",
+      "live": "",
+      "src": "https://github.com/matthewpkearney/cs559_hw8",
+      "dates": "Apr 2024",
+      "tags": ["Predictive modeling", "Data visualization", "Data preprocessing", "Python", "matplotlib"],
+      "show": true,
+      "month": 4,
+      "year": 2024
+    }, 
+    {
+      "title": "Password Hash Cracking on Compromised User-Password Database ",
+      "subtitle": "Effectively identified 13 compromised accounts by matching common cryptographic hashes with leaked user password hashes from a leaked and encrypted database.",
+      "live": "",
+      "src": "https://github.com/matthewpkearney/HW3/tree/main",
+      "dates": "Nov 2022",
+      "tags": ["Python", "Cryptography"],
+      "show": true,
+      "month": 4,
+      "year": 2024
+    },
+
+    {
+      "title": "Optimized linear regression model for 'house price / unit area'",
+      "subtitle": "Constuctucted a gradient descent linear regression model with robust data preprocessing and exploratory data analysis (EDA), prediciting house price per unit area with MSE of 0.38 through hyperparameter tuning and feature extraction.",
+      "live": "",
+      "src": "https://github.com/matthewpkearney/cs559_spring24_hw1/blob/main/MatthewKearney_HW1.ipynb",
+      "dates": "Feb 2024",
+      "tags": ["Predictive modeling", "Data visualization", "Data preprocessing", "Python", "NumPy", "matplotlib"],
+      "show": true,
+      "month": 2,
+      "year": 2024
+    }, 
+    
+    {
+      "title": "Crib-Dragging Cryptanalysis",
+      "subtitle": "Successfully decrypted 11 XOR-encrypted message exchanges using a crib-dragging algorithm, leveraging Python and online frameworks to iteratively validate findings and reveal ciphertext due to the insecure One-Time Pad (OTP) setup.",
+      "live": "",
+      "src": "https://github.com/matthewpkearney/Homework1CS396",
+      "dates": "Nov 2022",
+      "tags": ["Python", "Cryptography"],
+      "show": true,
+      "month": 2,
+      "year": 2024
+    }, 
+    
+    {
+      "title": "Customizable bionic reading browser extension",
+      "subtitle": "Researched in a class group of 5 on the impacts of varying visual stimuli (boldness, spacing, fonts, etc.) to improve reading experience for neurodivergent individuals. We evaluated the impact for users applying bionic reading into their reading as well addressing the limitations of PDF accessibility to bionic reading applications.",
+      "live": "https://docs.google.com/document/d/1Cv7zizyvrjrd_FaP-9oXfZ0ddJjtai_uHF0-aA4vgAI/edit#heading=h.tn626bmf7dsw",
+      "src": "https://github.com/nappilil/Bionic-Vision/tree/main",
+      "dates": "Nov-Dec 2023",
+      "tags": ["JavaScript", "HTML", "Front-end development", "UX design"],
+      "show": true,
+      "month": [11,12],
+      "year": 2023
+    },
+
+    {
+      "title": "Maintained operational invariance for a simulated bakery.",
+      "subtitle": "Synchronized a 200-customer thread pool to buy random amounts of random types of bread (sourdough, etc) and confirmed the correct update of the customer purchases, sales, and stock with process logging and avoiding danger of race conditions via semaphore logic.",
+      "live": "",
+      "src": "https://github.com/matthewpkearney/concurrent-bakery-simulation",
+      "dates": "Sep 2023",
+      "tags": ["Java", "Software validation", "Concurrency", "System calls"],
+      "show": true,
+      "month": 9,
+      "year": 2023
+    }, 
+
+    {
+      "title": "College alignment analytics template",
+      "subtitle": "Developed a college alignment scheme based on weighting user-defined criteria to evaluate and order programs that align best.",
+      "live": "",
+      "src": "https://github.com/matthewpkearney/College_Alignment_Script",
+      "dates": "August 2023",
+      "tags": ["Python", "Data analytics"],
+      "show": true,
+      "month": 8,
+      "year": 2023
+    }, 
+
+    {
+      "title": "Initiated and proposed website redevelopment for NHC Events, LLC",
+      "subtitle": "Proposed a front-end redevelopment of the venue website via React to redesign the virtual storefront and remove bugs. Conducted market research and communicated with management and photographers to use preferrable content for user interface.",
+      "live": "https://obscure-guacamole-gp757jjx6q6hwppr.github.dev/",
+      "src": "https://github.com/matthewpkearney/searles/tree/master",
+      "dates": "Nov 2022",
+      "tags": ["JavaScript", "Application development", "React", "UX design"],
+      "show": true,
+      "month": [7,8],
+      "year": 2023
+    }, 
+
+
+    {
+      "title": "Redeveloped Linux command-line interface (CLI)",
+      "subtitle": "Refunctionalized commands ‘cd’, ‘stat’, and ‘ll’ and restyled Ubuntu CLI, synchronizing inter-process communication (IPC) by forking and replacing the current process image to evaluate all other commands to improve efficiency through concurrency.",
+      "live": "",
+      "src": "https://github.com/matthewpkearney/linux_minishell",
+      "dates": "No 2022",
+      "tags": ["Concurrency", "C language", "POSIX", "System calls"],
+      "show": true,
+      "month": 4,
+      "year": 2023
+    }, 
+
+    {
+      "title": "Reimplemented data buffer functions fprintf() and fscanf() in ‘stdio.h’ ", 
+      "subtitle": "Rewrote data manipulation functions fprintf() and fscanf() from the ‘stdio.h’ C library using 7 other POSIX standard APIs and featuring a clean() function which closes all open files in the process, if any.",
+      "live": "",
+      "src": "https://github.com/matthewpkearney/stdiox.h",
+      "dates": "Nov 2022",
+      "tags": ["C language", "POSIX"],
+      "show": false,
+      "month": 2,
+      "year": 2023
+    }, 
+
+    {
+      "title": "Simulated Runge-Kutta methods of orbits in the 1st to 4th order",
+      "subtitle": "Calculated and visualized orbital trajectory using Runge-Kutta orbital approximations in the 1st to 4th differential order using Python and matplotlib.",
+      "live": "",
+      "src": "https://github.com/matthewpkearney/Orbits_RungeKutta1-4",
+      "dates": "Nov 2022",
+      "tags": ["Python", "Data visualization", "Simulation"],
+      "show": true,
+      "month": [10,11],
+      "year": 2022
+    }, 
+
+    {
+      "title": "Tiling The Courtyard: Inductive Program",
+      "subtitle": "A program developed in Racket (by EOPL) which runs an inductive algorithm on a 2^(n) x 2^(n) (n==input) courtyard of tiles to place 'trominos' strategically such that there is one 'filler' tile left untouched. Users can enter any natural number and display the tiled courtyard labelled by numbers up to ((2^n)*(2^n)-1)/3.",
+      "live": "",
+      "src": "https://github.com/matthewpkearney/TTC_completed/tree/main",
+      "dates": "Nov 2022",
+      "tags": ["Racket"],
+      "show": true,
+      "month": 4,
+      "year": 2022
+    }, 
+
+    {
+      "title": "Healing helper medical device research and development",
+      "subtitle": "Developed an ankle brace medical wearable in a team of 4 to combat slow healing with user analytics of force on injury. Spearheaded embedded system programming in C++, calibrating 4 load cells in the sole accurately to measure force.",
+      "live": "",
+      "src": "",
+      "dates": "Nov 2022",
+      "tags": ["C++", "Embedded systems engineering", "Application development" ],
+      "show": true,
+      "month": [1,4],
+      "year": 2021
+    }
+
+]

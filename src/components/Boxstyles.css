@@ -1,0 +1,61 @@
+.project-box {
+    background-color: #1e1e1e;
+    color:#1e1e1e;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1px;
+    width: 200px;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.project-box title{
+    font-size: 0.7rem;
+    background-color: #1e1e1e;
+    color: #fbf3f2;
+    font-weight: bold;
+    display: block; /* Make it behave like a block element */
+    margin: 0; /* Reset margin */
+} 
+
+.project-box i {
+    font-size: 0.65rem;
+    /* background-color: #bdbdbd; */
+    color: #fbf3f2;
+    float: center;
+    background-color: transparent; /* Set to transparent or remove if not needed */
+    text-decoration: italic;
+}
+
+.project-box i_left {
+    font-size: 0.65rem;
+    /* background-color: #bdbdbd; */
+    color: #fbf3f2;
+    float: left;
+    background-color: transparent; /* Set to transparent or remove if not needed */
+    text-decoration: italic;
+
+}
+
+.project-box cent{
+    float: center;
+}
+
+.project-box {
+    float: bottom;
+}
+
+.project-box a {
+    
+    color: #0000ff;
+    /* text-decoration: underline; */
+    font-size: 0.65rem;
+    font-weight: bold;
+    padding: 0px;
+    /* float: right; */
+    background-color: transparent;   /* #1e1e1e; */
+}
+
+.project-box a:hover {
+    text-decoration: underline;
+}

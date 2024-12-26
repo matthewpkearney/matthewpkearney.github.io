@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    background-color: #fbf3f2;
+    
+    /* #d9d9d9;   */
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+}
+
+a  { 
+    color: #1e1e1e;
+    background-color: #fbf3f2;
+    display: block;
+    text-align: center;
+    padding: 14px 16px; /* format */ 
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.left {
+    float: left;
+    font-weight: bold; 
+}
+
+.right {
+    float: right;
+    font-weight: 500;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #bdbdbd;
+    color: black;
+    height: 60px;
+    /* height:60px; this should match navbar height */
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    flex-grow: 1;
+    float:left;
+}
+
+.navbar i {
+    background-color: #fbf3f2;
+}
+
+

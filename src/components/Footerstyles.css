@@ -1,0 +1,55 @@
+body {
+    background-color: #bdbdbd;
+    margin: 0; /* Ensure there is no default margin */
+    
+}
+
+.foot {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+    background-color: #bdbdbd;
+    margin-top: 45px;
+}
+
+.one, .two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdbdbd;
+    padding: 5px; /* Add padding if needed */
+}
+
+.foot a {
+    color: inherit; /* Use inherited text color */
+    font-weight: 500;
+    text-decoration: none; /* Remove underline from links */
+    background-color: #bdbdbd; /* Ensure background color is set */
+}
+
+.foot a:hover {
+    background-color: #676767; /* Set hover background color */
+}
+
+/* Ensure icons have no background on hover */
+.foot a.left:hover {
+    background-color: #bdbdbd; /* Set to match the body's background color */
+}
+
+/* images need same coloring as background... */
+i {
+    background-color: #bdbdbd;
+}
+
+/* for very bottom */
+p2 {
+    text-align: center;
+    background-color: #bdbdbd;
+    display: block; /* Ensure it's a block-level element */
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Add padding if needed */
+    font-weight: 500;
+}
+
+

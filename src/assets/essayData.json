@@ -1,0 +1,94 @@
+[
+  {
+    "title": "Project One",
+    "subtitle": "Reason for developing Project One, what does it solve?",
+    "live": "www.project1.com",
+    "src": "www.github.com/matthewpkearney/url",
+    "dates": "Jan 2021",
+    "tags": ["PL1", "PL2", "Concept1", "Method1"],
+    "show": true,
+    "month": 1,
+    "year": 2021
+  }, 
+  {
+    "title": "Scaling the Potential of Vertical Farming Going into 2025 and Beyond",
+    "subtitle": "A look into the high-tech vertical farming industry, a possible new method for addressing urban food insecurity. A discussion between the tradeoffs of indoor and outdoor farming. How should we use data and technology? And how can we evaluate the potential impact?",
+    "live": "",
+    "src": "https://horganseminar.blogspot.com/2024/12/scaling-potential-of-vertical-farming.html",
+    "dates": "Nov-Dec 2024",
+    "tags": ["AgTech", "Data science", "Machine learning", "Vertical farming", "Urban food security"],
+    "show": true,
+    "month": [11,12],
+    "year": 2024
+  },
+  {
+    "title": "Hoboken is Temporary",
+    "subtitle": "An anthropological and proactive view of flooding's role to the current climate migration crisis. As a resident of Hoboken, a city that has often severe flooding, I look into how city planning is a decisive factor in public safety and flood risk outcomes.",
+    "live": "",
+    "src": "https://horganseminar.blogspot.com/2024/10/hoboken-is-temporary.html",
+    "dates": "Apr 2024",
+    "tags": ["Flood risk management", "Public safety", "Climate change adaptation"],
+    "show": true,
+    "month": 10,
+    "year": 2024
+  },  
+  {
+    "title": "AI’s Promise in Weather Forecasting: A Case Study",
+    "subtitle": "Examining Machine Learning Weather Prediction (MLWP) as a transformative tool in meteorology, compared to the historic Numerical Weather Prediction (NWP) systems. MLWP delivers similar accuracy of forecasts compared to the top-rated NWP systems (like ECMWF) in a percentage of the time. Is AI the future of weather forecasting?",
+    "live": "",
+    "src": "https://horganseminar.blogspot.com/2024/09/ais-promise-in-weather-forecasting-case.html",
+    "dates": "Apr 2024",
+    "tags": ["Meteorology", "Machine learning", "Climate modeling"],
+    "show": true,
+    "month": 9,
+    "year": 2024
+
+  },
+  {
+    "title": "Reflection Opinion on Depop User Privacy Contract",
+    "subtitle": "Discovered the user data and privacy contract contained critical information related to company rights with user data holding language of level 21.19 on the Flesh-Kincaid readability scale (designed for people with a masters education) and critically interpreted this as reason for social concern.",
+    "live": "",
+    "src": "https://docs.google.com/document/d/1BV4xPW1c-bkoSDLfQiHW9blWrSXWYngzCkI5W3jqBCw/edit?usp=sharing",
+    "dates": "Apr 2024",
+    "tags": ["Digital user contract", "Cybersecurity", "Privacy law"],
+    "show": true,
+    "month": 4,
+    "year": 2024
+  }, 
+  {
+    "title": "Influence of Wine on France and Vice Versa (French)",
+    "subtitle": "Conducted research on French wine regions, varietals, and the controlled appellation of origin (AOC) system, gaining a thorough understanding of the unique characteristics and quality standards of French wines, with a particular discussion on the history of the French regulatory system translating into modern-day worldwide impact.",
+    "live": "",
+    "src": "https://docs.google.com/document/d/1EUk6BN5U--aC5SwlHrRNKK2Z1_Yba1tDL2NXkPwTV7I/edit?usp=sharing",
+    "dates": "Apr 2024",
+    "tags": ["French language and culture", "Viniculture and agriculture", "AOC regional regulatory commission"],
+    "show": true,
+    "month": 4,
+    "year": 2024
+  }, 
+  {
+    "title": "Technosocial Gender Constructs and Class Exploitation",
+    "subtitle": "I explored the evolution of technology, from Leibniz’s calculator to the platform economy, highlighting its impact on society, labor, gender roles, and the ethical dilemmas posed by capitalist exploitation.",
+    "live": "",
+    "src": "https://docs.google.com/document/d/1KmLmrkGA2yE4Xsi6sLFHKKTxY3osZBb-e22uB5Cn2ds/edit?usp=sharing",
+    "dates": "Apr 2024",
+    "tags": ["Gender constructs", "Computing + labor history"],
+    "show": true,
+    "month": 2,
+    "year": 2023
+  }, 
+  {
+    "title": "Asteroid Activity in the Solar System",
+    "subtitle": "Understanding planetary science through solar system history reveals how gravitational laws shaped celestial bodies. Analyzing asteroid orbits and perturbations uncovers solar system formation and potential future impacts.",
+    "live": "",
+    "src": "https://docs.google.com/document/d/1c0ijGy5fo6Kam8TSDse1SvOCiR1pJyORbj8FpuqiVjg/edit?usp=sharing",
+    "dates": "Apr 2024",
+    "tags": ["Plantary physics", "Orbital mechanics"],
+    "show": true,
+    "month": 12,
+    "year": 2022
+  }
+
+
+  
+]
