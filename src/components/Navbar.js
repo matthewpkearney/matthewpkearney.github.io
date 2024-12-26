@@ -27,13 +27,13 @@ function Navbar(){
 
             <ul className= "nav-links">
                 <li>
-                    <a href="/ideas" className="a right">IDEAS</a>
+                    <a href="https://github.com/matthewpkearney/ideas" className="a right">IDEAS</a>
                 </li>
                 <li>
-                    <a href="/projects" className="a right">PROJECTS</a>
+                    <a href="https://github.com/matthewpkearney/projects" className="a right">PROJECTS</a>
                 </li>
                 <li>
-                    <a href="/work" className="a right">WORK</a>
+                    <a href="https://github.com/matthewpkearney/work" className="a right">WORK</a>
                 </li>
             </ul>
         </div>
