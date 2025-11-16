@@ -47,14 +47,33 @@ function Box(project){
     if the project notably went into two+ months, return string Month1-Month2
 
     */
-    function projMonth(month){
-        if(typeof(month)==typeof(0)){
-            return months[month]
+   //include this to take a span of years as well
+    function projDates(month, year){
+        // if(typeof(month)==typeof(0) || typeof(year) == typeof(0)){
+        //     return months[month]
+        // }
+        // return months[month[0]] + year[0] + "-" + months[month[1] + year[1]]
+
+          // Case 1: single month + single year
+        if (typeof(month) == typeof(0) && typeof(year) == typeof(0)) {
+            return months[month] + " " + year
         }
-        return months[month[0]] + "-" + months[month[1]]
+
+        // Case 2: month range, same year
+        if (Array.isArray(month) && !Array.isArray(year)) {
+            return months[month[0]]  + " – " + months[month[1]] + " " + year
+        }
+
+        // Case 3: month range + year range
+        if (Array.isArray(month) && Array.isArray(year)) {
+            return months[month[0]] + " " + year[0] + ' – ' + months[month[1]] + " " + year[1]
+        }
+
+        // fallback
+        return;
     }
 
-    const monthDates = projMonth(project.month);
+    const monthDates = projDates(project.month, project.year);
 
     return (
         <div className="project-box">
@@ -73,7 +92,7 @@ function Box(project){
             <><br></br></>
             
             <i>
-                {monthDates} {project.year}
+                {monthDates}
             </i>
             
             <i>

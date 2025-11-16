@@ -23,6 +23,8 @@ const projData = workData.slice(1).filter(project => project.show);
  Projbox components should be direct children of the grid container (.Proj)
 */
 
+// need to be able to have a span of years in the "dates"
+
 function Worx(){
     
     return (

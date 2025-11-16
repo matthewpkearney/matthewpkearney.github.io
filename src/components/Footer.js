@@ -43,7 +43,7 @@ function Footer() {
                     </div>
                 </div>
                 <p2>
-                    Matthew Kearney 2024
+                    Matthew Kearney 2024-2025
                 </p2>
                 
             </body>
